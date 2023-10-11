@@ -1,20 +1,26 @@
 body {
     background-color: #DEE3E7;
 }
+
 .link {
     text-align: center;
 }
-.secondpage{
+
+.secondpage {
     text-align: center;
 }
+
 .header {
     color: black;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-left: 3%;
 }
 
 .jounalist {
@@ -22,27 +28,54 @@ body {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
+    margin-left: 3%;
 }
 
 .date {
     font-weight: bold;
-    color: grey;
+    color: #5F5D5D;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
 }
+
+.bilde {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.satellite {
+    max-width: 60vw;
+    height: auto;
+}
+
+.avsnitt {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.side2avsnitt {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 footer {
     text-align: center;
     padding: 3px;
     background-color: #F08418;
+    border: 2px solid black;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
 }
 
-footer li{
+footer li {
     list-style-type: none;
+    text-align: center;
 }
 
-.img-wave{
-    max-width:40%;
+.img-wave {
+    max-width: 40%;
     height: auto;
+    margin-left: -3%;
 }
-
-
