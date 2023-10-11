@@ -29,8 +29,9 @@ footer {
     text-align: center;
     padding: 15px;
     background-color: #F08418;
-    list-style-type: none;
-    display: inline-block;
+}
 
+footer li{
+    list-style-type: none;
 }
 
