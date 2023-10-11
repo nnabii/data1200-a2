@@ -1,7 +1,12 @@
 body {
     background-color: #DEE3E7;
 }
-
+.link {
+    text-align: center;
+}
+.secondpage{
+    text-align: center;
+}
 .header {
     color: black;
     font-family:Arial, Helvetica, sans-serif;
