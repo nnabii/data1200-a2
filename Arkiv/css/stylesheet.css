@@ -5,31 +5,6 @@ body {
 .link {
     text-align: center;
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(178, 65, 65);
-    padding: 1.5rem;
-    border: 2px solid black;
-}
-
-.technology{
-    display: flex;
-    font-size: 2rem;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.signin, .subscribe, .aboutus{
-    text-align: center;
-}
-
-.navigations {
-    display: flex;
-    justify-content: flex-end;
-    /* moves nav buttons to the left*/
-    list-style: none;
-}
 
 .secondpage {
     text-align: center;
@@ -49,7 +24,7 @@ nav {
 }
 
 .jounalist {
-    color: rgb(178, 65, 65);
+    color: #F08418;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
@@ -84,9 +59,9 @@ nav {
 }
 
 footer {
-    text-align: left;
+    text-align: center;
     padding: 3px;
-    background-color: rgb(178, 65, 65);
+    background-color: #F08418;
     border: 2px solid black;
     padding-top: 40px;
     padding-right: 30px;
@@ -97,10 +72,6 @@ footer {
 footer li {
     list-style-type: none;
     text-align: center;
-}
-
-.kontaktinformasjon{
-    font-size: 1.5rem;
 }
 
 .img-wave {
