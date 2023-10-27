@@ -23,10 +23,9 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(178, 65, 65);
+    background-color: cornflowerblue;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
-    border: 2px solid black;
     font-weight: 900;
 
     /* For å fjerne punktene */
@@ -88,7 +87,7 @@ li a {
 }
 
 .jounalist {
-    color: rgb(178, 65, 65);
+    color: cornflowerblue;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
@@ -124,8 +123,7 @@ li a {
 footer {
     text-align: left;
     padding: 3px;
-    background-color: rgb(178, 65, 65);
-    border: 2px solid black;
+    background-color: cornflowerblue;
     padding-top: 15px;
     padding-right: 30px;
     padding-bottom: 40px;
