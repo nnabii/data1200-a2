@@ -162,14 +162,6 @@ footer li {
     display: inline;
 }
 
-.button {
-    list-style-type: none;
-}
-
-.active {
-    list-style-type: none;
-}
-
 li a {
     color: black;
     padding: 14px 16px;
@@ -198,6 +190,19 @@ li a {
 }
 
 .img-wave {
-    max-width: 50%;
+    max-width: 70%;
     height: auto;
+}
+
+.footer-page2 { /*styling - footer in page 2 */
+    flex:1;
+    background: #F08418;
+}
+
+@media(max-width:481px){ /*styling - footer in page 2, in smaller screens */
+    .footer-page2{
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
 }
