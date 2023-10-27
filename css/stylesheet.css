@@ -1,5 +1,9 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
 body {
     background-color: #DEE3E7;
+    margin:0px;
 }
 
 .link {
@@ -40,8 +44,33 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3%;
     margin-right: 3%;
+    margin-top: 9%;
 }
+nav {
+    background-color: #F08418;
+    top: 0;
+    width: 100%;
+    min-width: 100%;
+    overflow: auto;
+  }
 
+  .button {
+    list-style-type: none;
+    float: right;
+  }
+
+  .active {
+    list-style-type: none;
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 .title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -78,9 +107,31 @@ nav {
     margin-right: 3%;
 }
 
-.side2avsnitt {
-    margin-left: 3%;
-    margin-right: 3%;
+/*Page 2 styling*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    background:white;
+}
+
+/*Header and navigation bar*/
+.header-page2{ 
+    flex:1;
+    font-weight: 900;
+}
+/*Positioning main content*/
+.main-content{
+    flex:1;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: min-content;
+}
+
+.card{ /*Position elements in the main content*/
+    grid-column-start: 2;
+    grid-column-end: 6;
 }
 
 footer {
@@ -94,7 +145,9 @@ footer {
     padding-left: 30px;
 }
 
-footer li {
+
+.contributers {
+    flex:2;
     list-style-type: none;
     text-align: center;
 }
@@ -104,7 +157,6 @@ footer li {
 }
 
 .img-wave {
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
-    margin-left: -3%;
 }
