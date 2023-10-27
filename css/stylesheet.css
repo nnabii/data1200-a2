@@ -60,23 +60,7 @@ nav {
     flex: 1; 
     font-weight: 900;
 }
-.button {
-    list-style-type: none;
-    float: right;
-}
 
-.active {
-    list-style-type: none;
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
 .title {
     font-family: Arial, Helvetica, sans-serif;
@@ -146,6 +130,7 @@ footer li {
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: "Montserrat", sans-serif;
     background: white;
 }
@@ -154,6 +139,23 @@ footer li {
 .header-page2 {
     flex: 1;
     font-weight: 900;
+    background: #F08418;
+    border:none;
+    display: inline;
+}
+
+.button {
+    list-style-type: none;
+}
+
+.active {
+    list-style-type: none;
+}
+
+li a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 /*Positioning main content*/
