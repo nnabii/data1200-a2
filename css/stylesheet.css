@@ -94,6 +94,7 @@ nav {
 /*Header and navigation bar*/
 .header-page2{ 
     flex:1;
+    font-weight: 900;
 }
 /*Positioning main content*/
 .main-content{
